@@ -1,0 +1,1 @@
+const permenentMarkerFont = 'Permenent Mark';
