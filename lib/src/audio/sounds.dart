@@ -23,10 +23,11 @@ List<String> soundTypeToFilename(SfxType type) {
       ];
     case SfxType.buttonTap:
       return const [
-        'k1.mp3',
-        'k2.mp3',
-        'p1.mp3',
-        'p2.mp3',
+        // 'k1.mp3',
+        // 'k2.mp3',
+        // 'p1.mp3',
+        // 'p2.mp3',
+        'mixkit-on-or-off-light-switch-tap-2585.wav'
       ];
     case SfxType.congrats:
       return const [

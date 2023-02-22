@@ -1,7 +1,9 @@
 // Copyright 2022, the Flutter project authors. Please see the AUTHORS file
 // for details. All rights reserved. Use of this source code is governed by a
 // BSD-style license that can be found in the LICENSE file.
+import 'dart:math' as math;
 
+import 'package:capital_cities_game/src/utils/strings/global_strings.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
@@ -27,19 +29,30 @@ class MainMenuScreen extends StatelessWidget {
       backgroundColor: palette.backgroundMain,
       body: ResponsiveScreen(
         mainAreaProminence: 0.45,
-        squarishMainArea: Center(
-          child: Transform.rotate(
-            angle: -0.1,
-            child: const Text(
-              'Flutter Game Template!',
-              textAlign: TextAlign.center,
-              style: TextStyle(
-                fontFamily: 'Permanent Marker',
-                fontSize: 55,
-                height: 1,
+        squarishMainArea: Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Image.asset(
+              'assets/images/world_icon.png',
+              width: 100,
+              height: 100,
+              fit: BoxFit.cover,
+            ),
+            Transform.rotate(
+              angle: 0,
+              child: const Text(
+                'World cities game!',
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  fontFamily: 'Permanent Marker',
+                  fontSize: 55,
+                  height: 1,
+                ),
               ),
             ),
-          ),
+
+          ],
         ),
         rectangularMenuArea: Column(
           mainAxisAlignment: MainAxisAlignment.end,
@@ -121,3 +134,4 @@ class MainMenuScreen extends StatelessWidget {
 
   static const _gap = SizedBox(height: 10);
 }
+

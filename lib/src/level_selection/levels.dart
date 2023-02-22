@@ -22,6 +22,74 @@ const gameLevels = [
     achievementIdIOS: 'finished',
     achievementIdAndroid: 'CdfIhE96aspNWLGSQg',
   ),
+  GameLevel(
+    number: 4,
+    difficulty: 42,
+  ),
+  GameLevel(
+    number: 5,
+    difficulty: 42,
+  ),
+  GameLevel(
+    number: 6,
+    difficulty: 42,
+  ),
+  GameLevel(
+    number: 7,
+    difficulty: 42,
+  ),
+  GameLevel(
+    number: 8,
+    difficulty: 42,
+  ),
+  GameLevel(
+    number: 9,
+    difficulty: 42,
+  ),
+  GameLevel(
+    number: 10,
+    difficulty: 42,
+  ),
+  GameLevel(
+    number: 11,
+    difficulty: 42,
+  ),
+  GameLevel(
+    number: 12,
+    difficulty: 42,
+  ),
+  GameLevel(
+    number: 13,
+    difficulty: 42,
+  ),
+  GameLevel(
+    number: 14,
+    difficulty: 42,
+  ),
+  GameLevel(
+    number: 15,
+    difficulty: 42,
+  ),
+  GameLevel(
+    number: 16,
+    difficulty: 42,
+  ),
+  GameLevel(
+    number: 17,
+    difficulty: 42,
+  ),
+  GameLevel(
+    number: 18,
+    difficulty: 42,
+  ),
+  GameLevel(
+    number: 19,
+    difficulty: 42,
+  ),
+  GameLevel(
+    number: 20,
+    difficulty: 42,
+  ),
 ];
 
 class GameLevel {
